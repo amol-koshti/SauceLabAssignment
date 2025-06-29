@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.testproject.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 35.97 s <<< FAILURE! -- in com.testproject.runners.TestRunner
+com.testproject.runners.TestRunner.runScenario["Complete shopping flow with multiple items", "Sauce Demo E-commerce Application"](2) -- Time elapsed: 10.38 s <<< FAILURE!
+org.junit.ComparisonFailure: expected:<"T[HANK YOU FOR YOUR ORDER]"> but was:<"T[hank you for your order!]">
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.testproject.steps.SauceDemoSteps.i_should_see_the_confirmation_message(SauceDemoSteps.java:95)
+	at ✽.I should see the confirmation message "THANK YOU FOR YOUR ORDER"(file:///C:/Users/Amol/eclipse-workspace/TestProject/src/test/resources/features/sauce_demo.feature:22)
+

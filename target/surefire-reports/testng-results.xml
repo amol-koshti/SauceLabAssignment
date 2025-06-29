@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-29T16:24:50 IST" name="Sauce Demo Test Suite" finished-at="2025-06-29T16:26:00 IST" duration-ms="70487">
+    <groups>
+    </groups>
+    <test started-at="2025-06-29T16:24:50 IST" name="Sauce Demo TestNG Tests" finished-at="2025-06-29T16:26:00 IST" duration-ms="70487">
+      <class name="com.testproject.tests.SauceDemoTestNGTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:24:50 IST" name="setUp" finished-at="2025-06-29T16:24:59 IST" duration-ms="8995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddIndividualItemsToCart()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:24:59 IST" name="testAddIndividualItemsToCart" description="Test adding individual items to cart" finished-at="2025-06-29T16:25:03 IST" duration-ms="3727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddIndividualItemsToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:03 IST" name="tearDown" finished-at="2025-06-29T16:25:03 IST" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:03 IST" name="setUp" finished-at="2025-06-29T16:25:08 IST" duration-ms="4435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutProcess()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:08 IST" name="testCheckoutProcess" description="Test checkout process with validation" finished-at="2025-06-29T16:25:15 IST" duration-ms="7336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutProcess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:15 IST" name="tearDown" finished-at="2025-06-29T16:25:16 IST" duration-ms="955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:16 IST" name="setUp" finished-at="2025-06-29T16:25:21 IST" duration-ms="4416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCompleteShoppingFlow()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:21 IST" name="testCompleteShoppingFlow" description="Complete shopping flow with multiple items" finished-at="2025-06-29T16:25:27 IST" duration-ms="6074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleteShoppingFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:27 IST" name="tearDown" finished-at="2025-06-29T16:25:27 IST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:27 IST" name="setUp" finished-at="2025-06-29T16:25:31 IST" duration-ms="3748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginAndTitleVerification()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:31 IST" name="testLoginAndTitleVerification" description="Verify page title and successful login with DataProvider" finished-at="2025-06-29T16:25:34 IST" duration-ms="2634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAndTitleVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:34 IST" name="tearDown" finished-at="2025-06-29T16:25:34 IST" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:34 IST" name="setUp" finished-at="2025-06-29T16:25:39 IST" duration-ms="4158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithDataProvider(java.lang.String,java.lang.String)[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:39 IST" name="testLoginWithDataProvider" description="Test login with multiple users using DataProvider" data-provider="loginCredentials" finished-at="2025-06-29T16:25:41 IST" duration-ms="2312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:41 IST" name="tearDown" finished-at="2025-06-29T16:25:42 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:42 IST" name="setUp" finished-at="2025-06-29T16:25:44 IST" duration-ms="2619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithDataProvider(java.lang.String,java.lang.String)[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:44 IST" name="testLoginWithDataProvider" description="Test login with multiple users using DataProvider" data-provider="loginCredentials" finished-at="2025-06-29T16:25:48 IST" duration-ms="3275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:48 IST" name="tearDown" finished-at="2025-06-29T16:25:48 IST" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:48 IST" name="setUp" finished-at="2025-06-29T16:25:53 IST" duration-ms="4544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithDataProvider(java.lang.String,java.lang.String)[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:25:53 IST" name="testLoginWithDataProvider" description="Test login with multiple users using DataProvider" data-provider="loginCredentials" finished-at="2025-06-29T16:26:00 IST" duration-ms="7086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testproject.tests.SauceDemoTestNGTest@d5b810e]" started-at="2025-06-29T16:26:00 IST" name="tearDown" finished-at="2025-06-29T16:26:00 IST" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testproject.tests.SauceDemoTestNGTest -->
+    </test> <!-- Sauce Demo TestNG Tests -->
+  </suite> <!-- Sauce Demo Test Suite -->
+</testng-results>

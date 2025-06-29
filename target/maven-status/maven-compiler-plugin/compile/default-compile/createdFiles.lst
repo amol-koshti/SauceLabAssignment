@@ -1,0 +1,5 @@
+com\testproject\pages\LoginPage.class
+com\testproject\pages\InventoryPage.class
+com\testproject\config\TestConfig.class
+com\testproject\pages\CartPage.class
+com\testproject\pages\CheckoutPage.class

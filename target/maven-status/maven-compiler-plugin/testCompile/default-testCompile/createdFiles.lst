@@ -1,0 +1,5 @@
+com\testproject\runners\TestRunner.class
+com\testproject\steps\SauceDemoSteps.class
+com\testproject\tests\SauceDemoTestNGTest.class
+com\testproject\hooks\Hooks.class
+com\testproject\tests\SauceDemoTest.class
