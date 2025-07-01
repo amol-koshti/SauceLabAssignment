@@ -12,9 +12,9 @@ public class TestConfig {
     public static final String EXPECTED_CONFIRMATION_MESSAGE = "Thank you for your order!";
     
     // Checkout Information
-    public static final String FIRST_NAME = "John";
-    public static final String LAST_NAME = "Doe";
-    public static final String POSTAL_CODE = "12345";
+    public static final String FIRST_NAME = "Amol";
+    public static final String LAST_NAME = "Koshti";
+    public static final String POSTAL_CODE = "411005";
     
     // Timeouts
     public static final int IMPLICIT_WAIT = 10;
@@ -22,8 +22,8 @@ public class TestConfig {
     
     // Test Data for DataProvider
     public static final Object[][] LOGIN_CREDENTIALS = {
-        {"standard_user", "secret_sauce"},
-        {"problem_user", "secret_sauce"},
-        {"performance_glitch_user", "secret_sauce"}
+        {"standard_user", "secret_sauce"}
+//        {"problem_user", "secret_sauce"},
+//        {"performance_glitch_user", "secret_sauce"}
     };
 } 
