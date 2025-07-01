@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login API Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Enhanced Login API Tests(failed)">
+    <classes>
+      <class name="com.api.test.LoginAPITestEnhanced">
+        <methods>
+          <include name="testValidLoginWithDataProvider" invocation-numbers="0 1"/>
+          <include name="testResponseTime"/>
+          <include name="testBoundaryValues" invocation-numbers="0 1 2 3"/>
+          <include name="setUp"/>
+          <include name="testMissingFields" invocation-numbers="0 1 2"/>
+          <include name="testInvalidLoginWithDataProvider" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+          <include name="testSpecialCharacters" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="testWrongContentType"/>
+          <include name="testWrongHttpMethod"/>
+        </methods>
+      </class> <!-- com.api.test.LoginAPITestEnhanced -->
+    </classes>
+  </test> <!-- Enhanced Login API Tests(failed) -->
+  <test thread-count="5" name="All Login API Tests(failed)">
+    <classes>
+      <class name="com.api.test.LoginAPITestEnhanced">
+        <methods>
+          <include name="testValidLoginWithDataProvider" invocation-numbers="0 1"/>
+          <include name="testResponseTime"/>
+          <include name="testBoundaryValues" invocation-numbers="0 1 2 3"/>
+          <include name="setUp"/>
+          <include name="testMissingFields" invocation-numbers="0 1 2"/>
+          <include name="testInvalidLoginWithDataProvider" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+          <include name="testSpecialCharacters" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="testWrongContentType"/>
+          <include name="testWrongHttpMethod"/>
+        </methods>
+      </class> <!-- com.api.test.LoginAPITestEnhanced -->
+    </classes>
+  </test> <!-- All Login API Tests(failed) -->
+</suite> <!-- Failed suite [Login API Test Suite] -->

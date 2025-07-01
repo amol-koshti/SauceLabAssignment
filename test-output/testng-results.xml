@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-01T21:43:26 IST" name="Login API Test Suite" finished-at="2025-07-01T21:43:57 IST" duration-ms="30544">
+    <groups>
+    </groups>
+    <test started-at="2025-07-01T21:43:26 IST" name="Basic Login API Tests" finished-at="2025-07-01T21:43:40 IST" duration-ms="14265">
+      <class name="com.api.test.LoginAPITest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.api.test.LoginAPITest@70e9c95d]" started-at="2025-07-01T21:43:26 IST" name="setUp" finished-at="2025-07-01T21:43:27 IST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyRequestBody()[pri:0, instance:com.api.test.LoginAPITest@70e9c95d]" started-at="2025-07-01T21:43:27 IST" name="testEmptyRequestBody" description="Negative Test - Empty request body" finished-at="2025-07-01T21:43:30 IST" duration-ms="3260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyRequestBody -->
+        <test-method signature="testInvalidEmailFormat()[pri:0, instance:com.api.test.LoginAPITest@70e9c95d]" started-at="2025-07-01T21:43:30 IST" name="testInvalidEmailFormat" description="Negative Test - Invalid email format" finished-at="2025-07-01T21:43:32 IST" duration-ms="2530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmailFormat -->
+        <test-method signature="testMissingEmail()[pri:0, instance:com.api.test.LoginAPITest@70e9c95d]" started-at="2025-07-01T21:43:32 IST" name="testMissingEmail" description="Negative Test - Missing email" finished-at="2025-07-01T21:43:34 IST" duration-ms="1437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingEmail -->
+        <test-method signature="testMissingPassword()[pri:0, instance:com.api.test.LoginAPITest@70e9c95d]" started-at="2025-07-01T21:43:34 IST" name="testMissingPassword" description="Negative Test - Missing password" finished-at="2025-07-01T21:43:35 IST" duration-ms="1082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingPassword -->
+        <test-method signature="testResponseTime()[pri:0, instance:com.api.test.LoginAPITest@70e9c95d]" started-at="2025-07-01T21:43:35 IST" name="testResponseTime" description="Performance Test - Response time validation" finished-at="2025-07-01T21:43:37 IST" duration-ms="1707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method signature="testValidLogin()[pri:0, instance:com.api.test.LoginAPITest@70e9c95d]" started-at="2025-07-01T21:43:37 IST" name="testValidLogin" description="Positive Test - Valid login credentials" finished-at="2025-07-01T21:43:38 IST" duration-ms="1136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method signature="testWrongCredentials()[pri:0, instance:com.api.test.LoginAPITest@70e9c95d]" started-at="2025-07-01T21:43:38 IST" name="testWrongCredentials" description="Negative Test - Wrong credentials" finished-at="2025-07-01T21:43:39 IST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongCredentials -->
+        <test-method signature="testWrongHttpMethod()[pri:0, instance:com.api.test.LoginAPITest@70e9c95d]" started-at="2025-07-01T21:43:39 IST" name="testWrongHttpMethod" description="Negative Test - Using GET method instead of POST" finished-at="2025-07-01T21:43:40 IST" duration-ms="1272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongHttpMethod -->
+      </class> <!-- com.api.test.LoginAPITest -->
+    </test> <!-- Basic Login API Tests -->
+    <test started-at="2025-07-01T21:43:40 IST" name="Demo Login API Tests" finished-at="2025-07-01T21:43:44 IST" duration-ms="3156">
+      <class name="com.api.test.LoginAPITestDemo">
+        <test-method signature="testHttpMethodValidation()[pri:0, instance:com.api.test.LoginAPITestDemo@470734c3]" started-at="2025-07-01T21:43:40 IST" name="testHttpMethodValidation" description="HTTP Method Test - Using GET instead of POST" finished-at="2025-07-01T21:43:40 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHttpMethodValidation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.api.test.LoginAPITestDemo@470734c3]" started-at="2025-07-01T21:43:40 IST" name="setUp" finished-at="2025-07-01T21:43:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidRequestDemo()[pri:0, instance:com.api.test.LoginAPITestDemo@470734c3]" started-at="2025-07-01T21:43:40 IST" name="testInvalidRequestDemo" description="Negative Test - Invalid request demo" finished-at="2025-07-01T21:43:41 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidRequestDemo -->
+        <test-method signature="testRequestResponseLogging()[pri:0, instance:com.api.test.LoginAPITestDemo@470734c3]" started-at="2025-07-01T21:43:41 IST" name="testRequestResponseLogging" description="Logging Test - Request and response logging" finished-at="2025-07-01T21:43:42 IST" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRequestResponseLogging -->
+        <test-method signature="testResponseTimeValidation()[pri:0, instance:com.api.test.LoginAPITestDemo@470734c3]" started-at="2025-07-01T21:43:42 IST" name="testResponseTimeValidation" description="Performance Test - Response time validation" finished-at="2025-07-01T21:43:43 IST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTimeValidation -->
+        <test-method signature="testValidLoginDemo()[pri:0, instance:com.api.test.LoginAPITestDemo@470734c3]" started-at="2025-07-01T21:43:43 IST" name="testValidLoginDemo" description="Positive Test - Valid login credentials demo" finished-at="2025-07-01T21:43:44 IST" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginDemo -->
+      </class> <!-- com.api.test.LoginAPITestDemo -->
+    </test> <!-- Demo Login API Tests -->
+    <test started-at="2025-07-01T21:43:44 IST" name="Enhanced Login API Tests" finished-at="2025-07-01T21:43:44 IST" duration-ms="0">
+    </test> <!-- Enhanced Login API Tests -->
+    <test started-at="2025-07-01T21:43:44 IST" name="All Login API Tests" finished-at="2025-07-01T21:43:57 IST" duration-ms="13056">
+      <class name="com.api.test.LoginAPITestDemo">
+        <test-method signature="testHttpMethodValidation()[pri:0, instance:com.api.test.LoginAPITestDemo@2af004b]" started-at="2025-07-01T21:43:53 IST" name="testHttpMethodValidation" description="HTTP Method Test - Using GET instead of POST" finished-at="2025-07-01T21:43:53 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHttpMethodValidation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.api.test.LoginAPITestDemo@2af004b]" started-at="2025-07-01T21:43:53 IST" name="setUp" finished-at="2025-07-01T21:43:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidRequestDemo()[pri:0, instance:com.api.test.LoginAPITestDemo@2af004b]" started-at="2025-07-01T21:43:53 IST" name="testInvalidRequestDemo" description="Negative Test - Invalid request demo" finished-at="2025-07-01T21:43:54 IST" duration-ms="998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidRequestDemo -->
+        <test-method signature="testRequestResponseLogging()[pri:0, instance:com.api.test.LoginAPITestDemo@2af004b]" started-at="2025-07-01T21:43:54 IST" name="testRequestResponseLogging" description="Logging Test - Request and response logging" finished-at="2025-07-01T21:43:55 IST" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRequestResponseLogging -->
+        <test-method signature="testResponseTimeValidation()[pri:0, instance:com.api.test.LoginAPITestDemo@2af004b]" started-at="2025-07-01T21:43:55 IST" name="testResponseTimeValidation" description="Performance Test - Response time validation" finished-at="2025-07-01T21:43:56 IST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTimeValidation -->
+        <test-method signature="testValidLoginDemo()[pri:0, instance:com.api.test.LoginAPITestDemo@2af004b]" started-at="2025-07-01T21:43:56 IST" name="testValidLoginDemo" description="Positive Test - Valid login credentials demo" finished-at="2025-07-01T21:43:57 IST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginDemo -->
+      </class> <!-- com.api.test.LoginAPITestDemo -->
+      <class name="com.api.test.LoginAPITest">
+        <test-method signature="testEmptyRequestBody()[pri:0, instance:com.api.test.LoginAPITest@27406a17]" started-at="2025-07-01T21:43:44 IST" name="testEmptyRequestBody" description="Negative Test - Empty request body" finished-at="2025-07-01T21:43:45 IST" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyRequestBody -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.api.test.LoginAPITest@27406a17]" started-at="2025-07-01T21:43:44 IST" name="setUp" finished-at="2025-07-01T21:43:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidEmailFormat()[pri:0, instance:com.api.test.LoginAPITest@27406a17]" started-at="2025-07-01T21:43:45 IST" name="testInvalidEmailFormat" description="Negative Test - Invalid email format" finished-at="2025-07-01T21:43:46 IST" duration-ms="1386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmailFormat -->
+        <test-method signature="testMissingEmail()[pri:0, instance:com.api.test.LoginAPITest@27406a17]" started-at="2025-07-01T21:43:46 IST" name="testMissingEmail" description="Negative Test - Missing email" finished-at="2025-07-01T21:43:47 IST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingEmail -->
+        <test-method signature="testMissingPassword()[pri:0, instance:com.api.test.LoginAPITest@27406a17]" started-at="2025-07-01T21:43:47 IST" name="testMissingPassword" description="Negative Test - Missing password" finished-at="2025-07-01T21:43:48 IST" duration-ms="1066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingPassword -->
+        <test-method signature="testResponseTime()[pri:0, instance:com.api.test.LoginAPITest@27406a17]" started-at="2025-07-01T21:43:48 IST" name="testResponseTime" description="Performance Test - Response time validation" finished-at="2025-07-01T21:43:49 IST" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method signature="testValidLogin()[pri:0, instance:com.api.test.LoginAPITest@27406a17]" started-at="2025-07-01T21:43:49 IST" name="testValidLogin" description="Positive Test - Valid login credentials" finished-at="2025-07-01T21:43:51 IST" duration-ms="1331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method signature="testWrongCredentials()[pri:0, instance:com.api.test.LoginAPITest@27406a17]" started-at="2025-07-01T21:43:51 IST" name="testWrongCredentials" description="Negative Test - Wrong credentials" finished-at="2025-07-01T21:43:52 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongCredentials -->
+        <test-method signature="testWrongHttpMethod()[pri:0, instance:com.api.test.LoginAPITest@27406a17]" started-at="2025-07-01T21:43:52 IST" name="testWrongHttpMethod" description="Negative Test - Using GET method instead of POST" finished-at="2025-07-01T21:43:53 IST" duration-ms="1309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongHttpMethod -->
+      </class> <!-- com.api.test.LoginAPITest -->
+    </test> <!-- All Login API Tests -->
+  </suite> <!-- Login API Test Suite -->
+</testng-results>
